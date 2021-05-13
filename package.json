@@ -11,6 +11,7 @@
 		"type": "git",
 		"url": "https://github.com/kembreyfarquhar/express-http-custom-error.git"
 	},
+	"homepage": "https://github.com/kembreyfarquhar/express-http-custom-error/blob/main/README.md",
 	"jest": {
 		"collectCoverageFrom": [
 			"**/*.js",
