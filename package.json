@@ -1,5 +1,5 @@
 {
-	"name": "express-http-errors",
+	"name": "express-http-custom-error",
 	"version": "1.0.0",
 	"description": "Errors and handler for Express.js APIs.",
 	"main": "index.js",
