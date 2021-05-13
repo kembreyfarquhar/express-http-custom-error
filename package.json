@@ -7,6 +7,10 @@
 		"test": "jest --watch",
 		"coverage": "jest --coverage"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kembreyfarquhar/express-http-custom-error.git"
+	},
 	"jest": {
 		"collectCoverageFrom": [
 			"**/*.js",
@@ -15,10 +19,14 @@
 			"!**/coverage/**"
 		]
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {},
+	"keywords": [
+		"es6",
+		"express",
+		"error",
+		"http"
+	],
+	"author": "Katie Embrey-Farquhar",
+	"license": "MIT",
 	"devDependencies": {
 		"jest": "^26.6.3",
 		"prettier": "^2.3.0"
