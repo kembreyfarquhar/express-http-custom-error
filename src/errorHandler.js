@@ -1,6 +1,6 @@
 const { HTTPError, InternalServerError } = require('./errors');
 
-const errorHandler = (err, _req, res, _next) => {
+function errorHandler(err, _req, res, _next) {
 	let response;
 
 	if (err instanceof HTTPError) {
@@ -12,7 +12,7 @@ const errorHandler = (err, _req, res, _next) => {
 	res.status(response.statusCode).json(response);
 	errorLogger(err, response);
 	return;
-};
+}
 
 function errorLogger(err, response) {
 	console.log('\nError:');
@@ -20,4 +20,4 @@ function errorLogger(err, response) {
 	console.log(response);
 }
 
-module.exports = errorHandler;
+module.exports = { errorHandler };
