@@ -2,6 +2,8 @@
 
 Customizable HTTP Errors, compatible with es6 "throw" syntax, including a custom error handler for express APIs.
 
+**This package is not being maintained and may have errors.**
+
 ## Installation
 
 ```bash
